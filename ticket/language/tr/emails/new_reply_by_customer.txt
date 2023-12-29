@@ -1,0 +1,18 @@
+Merhaba,
+
+Bir müşteri talebi cevapladı "%%SUBJECT%%".
+
+Talebi buradan görebilirsiniz :
+%%TRACK_URL%%
+
+
+
+* BU MESAJI YANITLAMAYIN *
+Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur. Bu e-posta mesajını cevaplamayınız, cevabınız müşterinize ulaşmayacaktır!
+
+E-Posta bilgilendirme ayarlarınızı değiştirmek için destek masasına yönetici girişi yaparak "Profil" bölümüne giriniz.
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

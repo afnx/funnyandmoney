@@ -1,0 +1,17 @@
+Sayın %%NAME%%,
+
+Yöneticilerimiz "%%SUBJECT%%" konulu talebinize bir cevap yazdı. 
+
+Talebinizi buradan görebilirsiniz :
+%%TRACK_URL%%
+
+
+* BU MESAJI YANITLAMAYIN *
+Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur. Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır, mesajımızın altındaki link ile açılacak sayfamızdan bizimle iletişim kurabilirsiniz!
+
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,20 @@
+Merhaba,
+
+%%NAME%% adlı kişiden aşağıdaki konuda özel mesaj aldınız:
+
+%%SUBJECT%%
+
+Aşağıdaki linke tıklayarak yeni mesajınızı görüntüleyebilirsiniz:
+%%TRACK_URL%%
+
+Profilinizde ilgili ayarlardan her zaman yeni mesaj geldiğinde bildiri gelmemesini sağlayabilirsiniz.
+
+
+* BU MESAJI YANITLAMAYIN *
+Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur. Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!
+ıletişim için linki kullanabilirsiniz.
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

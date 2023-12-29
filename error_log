@@ -1,0 +1,10 @@
+[04-Nov-2016 12:20:04 UTC] PHP Notice:  Array to string conversion in /home/kalkantes62/public_html/BL/socials.php on line 648
+[04-Nov-2016 23:06:39 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1130): Host 'ip-160-153-18-104.ip.secureserver.net' is not allowed to connect to this MySQL server in /home/kalkantes62/public_html/DL/DAL.php on line 35
+[04-Nov-2016 23:06:39 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/kalkantes62/public_html/DL/DAL.php on line 37
+[04-Nov-2016 23:06:39 UTC] PHP Warning:  mysqli_select_db(): Couldn't fetch mysqli in /home/kalkantes62/public_html/DL/DAL.php on line 47
+[04-Nov-2016 23:06:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kalkantes62/public_html/BL/showAdmin.php:168) in /home/kalkantes62/public_html/DL/DAL.php on line 47
+[20-Nov-2016 10:02:38 UTC] PHP Notice:  Undefined index: userID in /home/kalkantes62/public_html/Controllers/twitter.php on line 24
+[31-Dec-2016 20:43:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kalkantes62/public_html/Controllers/google.php on line 11
+[31-Dec-2016 20:44:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kalkantes62/public_html/Controllers/google.php on line 11
+[31-Dec-2016 20:44:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/kalkantes62/public_html/Controllers/google.php on line 11
+[31-Dec-2016 22:47:53 Europe/Istanbul] PHP Notice:  Undefined index: username in /home/kalkantes62/public_html/Controllers/formPosts.php on line 5943

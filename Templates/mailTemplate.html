@@ -1,0 +1,157 @@
+<?phpz
+require_once dirname ( dirname ( __FILE__ ) ) . '/BL/Tables/users.php';
+
+$userid = $_SESSION['userID'];
+$user = new users($userid);
+
+$loc = new localization (); 
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Funny&Money</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://funnyandmoney.com/Library/bootstrap-3.3.6/css/email.css" />
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/css/theme.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/css/custom.css" rel="stylesheet"> 
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/css/helpers.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'> 
+    
+	<!-- PLUGINS -->
+	
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/ionicons/css/ionicons.min.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/animate/animate.min.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/animate/animate.delay.css" rel="stylesheet">
+	<link href="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">	
+	<script src="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/css_browser_selector.js" type="text/javascript"></script>
+
+</head>
+ 
+<body bgcolor="#FFFFFF">
+
+<!-- HEADER -->
+
+			
+				<header>
+	
+		<div class="container">
+		
+			<span class="bar hide"></span>
+			
+			<a href="/" class="logo" style="font-size:20px;">Funny&Money</a>
+			
+			</div>
+			</header>
+				
+><!-- /HEADER -->
+
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>
+		<td></td>
+		<td class="container" bgcolor="#FFFFFF">
+
+			<div class="content">
+			<table>
+				<tr>
+					<td>
+						
+						<h3><?php echo $loc->label("Hello");?> <?php echo $user->fullName;?>,</h3>
+						<p class="lead">We will be glad to join F&M family. First, please confirm E-mail address and login your account. You can make necessary arrangements. Like, follow, share and get points! Or spend points and get likes, followers, shares! </p>
+						
+						<p></p>
+						
+						<section class="bg-primary subtitle">	
+										
+							<h2>Confirm Your E-mail</h2>	
+										
+							<a href="http://funnyandmoney.com/confirm" class="btn btn-inverse"><i class="glyphicon glyphicon-ok"></i> Click Here</a>
+										
+						</section>	
+						<br/>
+						
+						Or you can enter your confirmation code below.
+						
+						<?php echo $user->email_code;?>
+
+						<p></p>
+						
+						If you think there is a problem, to cancel this process please click below link.
+						<a href="http://funnyandmoney.com/error">http://funnyandmoney.com/error</a>
+												
+						<br/>
+						<br/>	
+						<br/>	
+
+						<p>Thank you.</p>
+						<p>F&M Support Team</p>
+		
+					
+					</td>
+				</tr>
+			</table>
+			</div>
+									
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /BODY -->
+
+<!-- FOOTER -->
+<footer>
+		<div class="container">
+			<div class="widget row">
+										
+					
+				</div>
+	
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">	
+	
+			<div class="container">
+
+							<ul class="list-inline">
+								<li><a href="http://funnyandmoney.com/about">About</li>
+								<li><a href="http://funnyandmoney.com/help">Help</a></li>
+								<li><a href="http://funnyandmoney.com/contact">Contact</a></li>
+								<li><a href="http://funnyandmoney.com/privacy">Privacy</a></li>
+								<li><a href="http://funnyandmoney.com/terms">Terms</a></li>
+							</ul>
+				</div>
+			
+				<ul class="list-inline">
+					<li><a href="http://twitter.com/funnynmoney" class="btn btn-circle btn-social-icon" data-toggle="tooltip" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="http://facebook.com/funnynmoney" class="btn btn-circle btn-social-icon" data-toggle="tooltip" title="Follow us on Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="btn btn-circle btn-social-icon" data-toggle="tooltip" title="Follow us on Google"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				© 2016 Funny&Money. All rights reserved.
+			</div>
+		</div>
+	</footer>
+<!-- /FOOTER -->
+
+
+	<script src="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/jquery/jquery-1.11.1.min.js"></script>
+	
+	<script src="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/core.js"></script>
+	
+	<script src="http://funnyandmoney.com/Library/bootstrap-3.3.6/plugins/owl-carousel/owl.carousel.min.js"></script>
+	
+	<script src="http://funnyandmoney.com/Library/custom.js"></script>	
+
+
+</body>
+</html>

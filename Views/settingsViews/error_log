@@ -1,0 +1,18 @@
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 4
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 4
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 6
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 6
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 10
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 10
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 10
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 10
+[26-Aug-2016 13:57:46 UTC] PHP Notice:  Undefined variable: loc in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 28
+[26-Aug-2016 13:57:46 UTC] PHP Fatal error:  Call to a member function label() on null in /home/kalkantes62/public_html/Views/settingsViews/account.php on line 28
+[26-Aug-2016 13:57:51 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 5
+[26-Aug-2016 13:57:51 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 5
+[26-Aug-2016 13:57:51 UTC] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 7
+[26-Aug-2016 13:57:51 UTC] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 7
+[26-Aug-2016 16:57:51 Europe/Istanbul] PHP Notice:  Undefined variable: user in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 12
+[26-Aug-2016 16:57:51 Europe/Istanbul] PHP Notice:  Trying to get property of non-object in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 12
+[26-Aug-2016 16:57:51 Europe/Istanbul] PHP Notice:  Undefined variable: loc in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 28
+[26-Aug-2016 16:57:51 Europe/Istanbul] PHP Fatal error:  Call to a member function label() on null in /home/kalkantes62/public_html/Views/settingsViews/personal.php on line 28

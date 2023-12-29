@@ -1,0 +1,19 @@
+Sayın %%NAME%%,
+
+Bu mesaj e-posta adresinizle bir destek talebi açıldığı için gönderilmektedir.
+
+Talep Takip Numaranız : %%NUM%%
+
+
+
+%%LIST_TICKETS%%
+
+
+* BU MESAJI YANITLAMAYIN *
+Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur. Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!
+
+Saygılarımızla,
+
+
+%%SITE_TITLE%%
+%%SITE_URL%%

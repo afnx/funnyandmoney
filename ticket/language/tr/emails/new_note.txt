@@ -1,0 +1,18 @@
+Hello,
+
+"%%SUBJECT%%" numaralı destek talebine yeni not eklenerek size atandı.
+
+
+%%NAME%% Tarafından eklenen not:
+
+%%MESSAGE%%
+
+
+Bu talebi aşağıdaki linkten yönetebilirsiniz.:
+%%TRACK_URL%%
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

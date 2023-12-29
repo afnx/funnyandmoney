@@ -1,0 +1,27 @@
+Merhaba,
+
+Yeni bir talep sizin kategorinize taşındı. Talep Detayları Aşağıdadır :
+
+Talep Konusu : %%SUBJECT%%
+Takip Numarası : %%TRACK_ID%%
+
+Talebi yönetmek için buraya tıklayınız :
+
+
+
+
+
+
+
+%%TRACK_URL%%
+
+
+* BU MESAJI YANITLAMAYIN *
+Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur. Bu mesajı yanıtlamayınız, müşteriniz cevabınızı alamayacaktır!
+
+E-Posta bilgilendirme ayarlarınızı değiştirmek için destek masasına yönetici girişi yaparak "Profil" bölümüne giriniz.
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%
